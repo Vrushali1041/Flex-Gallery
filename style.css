@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    width: 96vw;
+    position: fixed;
+    top: 0px;
+}
+a{
+    text-decoration: none;  
+    color: white;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+}
+.heading-1 > h2{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.content{
+    margin: 20px;
+   
+}
+button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 9px;
+    width: 150px;
+}
+.image{
+  padding-top: 85px;
+  padding-left: 30px;
+  padding-right: 27px;
+}
+.heading-2{
+   font-size: 30px; 
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+.container-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 27px;
+}
+.flex-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-1{
+    padding-bottom: 19px;
+}
+.img-2{
+    padding-bottom: 19px;
+}
+.img-3{
+    padding-bottom: 19px;
+}
+/* .img-4{
+    padding-bottom: 19px;
+}
+.img-5{
+    padding-bottom: 19px;
+}
+.img-6{
+    padding-bottom: 19px;
+} */
+
+@media  screen and (max-width:768px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .menu-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .image{
+        padding: 10px;
+        justify-content: center;
+    }
+    .container-2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flex-gallery{
+       justify-content: center;
+    }
+    .img-4{
+        padding-bottom: 19px;
+    }
+    .img-5{
+        padding-bottom: 19px;
+    }
+    .img-6{
+        padding-bottom: 19px;
+    }
+}
